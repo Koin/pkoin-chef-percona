@@ -10,6 +10,4 @@ when "debian"
 end
 
 include_recipe "percona::configure_server"
-
-# access grants
 include_recipe "percona::access_grants"

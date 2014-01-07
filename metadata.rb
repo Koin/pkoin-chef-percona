@@ -14,7 +14,6 @@ recipe "percona::configure_server", "Used internally to manage the server config
 recipe "percona::access_grants",    "Used internally to grant permissions for recipes"
 
 depends "apt", "~> 1.9"
-depends "openssl"
 depends "mysql", "~> 3.0"
 
 %w[debian].each do |os|
